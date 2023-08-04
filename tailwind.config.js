@@ -7,6 +7,7 @@ export default {
         primaryColor: '#111D5E',
         lightColor: '#FEFCF8',
         lightColor2: '#FEFBF8',
+        lightColor3: '#FAF1EB',
         darkGrayColor: '#282A2E',
         grayColor: '#ADB1BA',
         grayColor2: '#606878',
