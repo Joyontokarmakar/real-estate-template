@@ -16,7 +16,7 @@ export default {
         'hero-pattern': "url('/images/hero-banner.png')",
       },
       boxShadow: {
-        'btnShadow': '0px 10px 20px 0px rgba(161, 161, 161, 0.25)',
+        'sliderShadow': '-5px 0px 34px 0px #D7D7D7;',
       },
     },
   },
