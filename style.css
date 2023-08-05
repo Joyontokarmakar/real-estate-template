@@ -3,31 +3,31 @@
 @tailwind utilities;
 
 .menuItem{
-    @apply text-lightColor lg:text-[13px] xl:text-base 2xl:text-2xl font-medium
+    @apply text-lightColor lg:text-[13px] xl:text-base 2xl:text-2xl font-medium font-poppins
 }
 
 .bannerHead{
-    @apply text-[36px] lg:text-[48px] xl:text-[60px] 2xl:text-[90px] font-semibold leading-[40px] lg:leading-[53px] xl:leading-[67px] 2xl:leading-[100px] text-darkGrayColor;
+    @apply text-[36px] lg:text-[48px] xl:text-[60px] 2xl:text-[90px] font-outfit font-semibold leading-[40px] lg:leading-[53px] xl:leading-[67px] 2xl:leading-[100px] text-darkGrayColor;
 }
 
 .bannerDetail{
-    @apply mt-[10px] text-xs lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal lg:leading-[19px] xl:leading-6 2xl:leading-9 text-darkGrayColor
+    @apply mt-[10px] text-xs lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-outfit font-normal lg:leading-[19px] xl:leading-6 2xl:leading-9 text-darkGrayColor
 }
 
 .itemCount{
-    @apply text-sm lg:text-[15px] xl:text-lg 2xl:text-[28px] font-medium text-darkGrayColor
+    @apply text-sm lg:text-[15px] xl:text-lg 2xl:text-[28px] font-poppins font-medium text-darkGrayColor
 }
 
 .itemName{
-    @apply text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium text-darkGrayColor
+    @apply text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-poppins font-medium text-darkGrayColor
 }
 
 .searchHead{
-    @apply text-[9px] lg:text-[13px] xl:text-base 2xl:text-2xl font-semibold text-darkGrayColor
+    @apply text-[9px] lg:text-[13px] xl:text-base 2xl:text-2xl font-poppins font-semibold text-darkGrayColor
 }
 
 .searchItem{
-    @apply text-[9px] lg:text-[11px] xl:text-sm 2xl:text-[22px] font-normal text-darkGrayColor bg-transparent
+    @apply text-[9px] lg:text-[11px] xl:text-sm 2xl:text-[22px] font-poppins font-normal text-darkGrayColor bg-transparent
 }
 
 .sliderBody{
@@ -39,23 +39,23 @@
 }
 
 .sliderAmount{
-    @apply text-base lg:text-lg xl:text-[22px] 2xl:text-[34px] font-semibold text-darkGrayColor mt-5 lg:mt-6 xl:mt-[30px] 2xl:mt-[45px]
+    @apply text-base lg:text-lg xl:text-[22px] 2xl:text-[34px] font-poppins font-semibold text-darkGrayColor mt-5 lg:mt-6 xl:mt-[30px] 2xl:mt-[45px]
 }
 
 .sliderHead{
-    @apply text-xs lg:text-base xl:text-xl 2xl:text-[30px] font-bold text-darkGrayColor mt-1.5 lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
+    @apply text-xs lg:text-base xl:text-xl 2xl:text-[30px] font-poppins font-bold text-darkGrayColor mt-1.5 lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
 }
 
 .sliderDetails{
-    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 mt-2 lg:mt-[10px] xl:mt-[13px] 2xl:mt-5
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-outfit font-normal text-grayColor2 mt-2 lg:mt-[10px] xl:mt-[13px] 2xl:mt-5
 }
 
 .agentHead{
-    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] leading-[30px] lg:leading-[48px] xl:leading-[60px] 2xl:leading-[90px] font-semibold text-darkGrayColor
+    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] font-outfit leading-[30px] lg:leading-[48px] xl:leading-[60px] 2xl:leading-[90px] font-semibold text-darkGrayColor
 }
 
 .agentDetail{
-    @apply text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px]
+    @apply text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-poppins font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px]
 }
 
 .agentImg{
@@ -63,11 +63,11 @@
 }
 
 .chooseTitle{
-    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] font-semibold text-darkGrayColor
+    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] font-outfit font-semibold text-darkGrayColor
 }
 
 .chooseDetail{
-    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px] mb-4 lg:mb-[26px] xl:mb-[33px] 2xl:mb-[50px]
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-outfit font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px] mb-4 lg:mb-[26px] xl:mb-[33px] 2xl:mb-[50px]
 }
 
 .chooseCardBody{
@@ -79,15 +79,15 @@
 }
 
 .chooseCardHead{
-    @apply text-darkGrayColor text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-bold
+    @apply text-darkGrayColor text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-bold font-poppins
 }
 
 .chooseCardDetail{
-    @apply text-grayColor2 text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
+    @apply text-grayColor2 text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-outfit font-normal lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
 }
 
 .featureName{
-    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 hover:text-redColor
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-poppins font-normal text-grayColor2 hover:text-redColor
 }
 
 .socialIcon{
@@ -99,7 +99,7 @@
 }
 
 .linkItem{
-    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-poppins font-medium
 }
 
 .contactItem{
@@ -111,7 +111,7 @@
 }
 
 .contactInfo{
-    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-poppins font-medium
 }
 
 .propertyItem{
@@ -123,11 +123,11 @@
 }
 
 .propertyInfo{
-    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-poppins font-medium
 }
 
 .copyrightInfo{
-    @apply pt-[3px] lg:pt-[5px] xl:pt-[6px] 2xl:pt-[10px] pb-1 lg:pb-2 xl:pb-[10px] 2xl:pb-[15px] text-center text-lightColor3 text-[9px] lg:text-[10px] xl:text-xs 2xl:text-lg font-medium
+    @apply pt-[3px] lg:pt-[5px] xl:pt-[6px] 2xl:pt-[10px] pb-1 lg:pb-2 xl:pb-[10px] 2xl:pb-[15px] text-center text-lightColor3 text-[9px] lg:text-[10px] xl:text-xs 2xl:text-lg font-poppins font-medium
 }
 
 .slider {
@@ -148,8 +148,12 @@
     color: black;
 }
 
-
 .slick-slide {
     transition: all ease-in-out .3s;
     /*opacity: .2;*/
+}
+
+::selection{
+    background-color: #282A2E;
+    color: #FEFCF8;
 }
