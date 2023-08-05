@@ -21,6 +21,10 @@ export default {
       boxShadow: {
         'sliderShadow': '-5px 0px 34px 0px #D7D7D7;',
       },
+      screens: {
+        rotateMobile: { min: "515px", max: "574px" },
+        tablet: { min: "575px", max: "639px" },
+      },
     },
   },
   plugins: [],

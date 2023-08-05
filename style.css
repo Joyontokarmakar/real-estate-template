@@ -2,6 +2,134 @@
 @tailwind components;
 @tailwind utilities;
 
+.menuItem{
+    @apply text-lightColor lg:text-[13px] xl:text-base 2xl:text-2xl font-medium
+}
+
+.bannerHead{
+    @apply text-[36px] lg:text-[48px] xl:text-[60px] 2xl:text-[90px] font-semibold leading-[40px] lg:leading-[53px] xl:leading-[67px] 2xl:leading-[100px] text-darkGrayColor;
+}
+
+.bannerDetail{
+    @apply mt-[10px] text-xs lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal lg:leading-[19px] xl:leading-6 2xl:leading-9 text-darkGrayColor
+}
+
+.itemCount{
+    @apply text-sm lg:text-[15px] xl:text-lg 2xl:text-[28px] font-medium text-darkGrayColor
+}
+
+.itemName{
+    @apply text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium text-darkGrayColor
+}
+
+.searchHead{
+    @apply text-[9px] lg:text-[13px] xl:text-base 2xl:text-2xl font-semibold text-darkGrayColor
+}
+
+.searchItem{
+    @apply text-[9px] lg:text-[11px] xl:text-sm 2xl:text-[22px] font-normal text-darkGrayColor bg-transparent
+}
+
+.sliderBody{
+    @apply px-2 lg:px-[10px] xl:px-[13px] 2xl:px-5 pt-[6px] lg:pt-2 xl:pt-[10px] 2xl:pt-[15px] pb-2 lg:pb-[10px] xl:pb-[13px] 2xl:pb-5 bg-white hover:shadow-sliderShadow rounded-xl lg:rounded-[19px] xl:rounded-[24px] 2xl:rounded-[37px]
+}
+
+.sliderImg{
+    @apply w-[183px] lg:w-[244px] xl:w-[306px] 2xl:w-[459px]
+}
+
+.sliderAmount{
+    @apply text-base lg:text-lg xl:text-[22px] 2xl:text-[34px] font-semibold text-darkGrayColor mt-5 lg:mt-6 xl:mt-[30px] 2xl:mt-[45px]
+}
+
+.sliderHead{
+    @apply text-xs lg:text-base xl:text-xl 2xl:text-[30px] font-bold text-darkGrayColor mt-1.5 lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
+}
+
+.sliderDetails{
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 mt-2 lg:mt-[10px] xl:mt-[13px] 2xl:mt-5
+}
+
+.agentHead{
+    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] leading-[30px] lg:leading-[48px] xl:leading-[60px] 2xl:leading-[90px] font-semibold text-darkGrayColor
+}
+
+.agentDetail{
+    @apply text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px]
+}
+
+.agentImg{
+    @apply w-[168px] lg:w-[225px] xl:w-[281px] 2xl:w-[422px] h-[216px] lg:h-[288px] xl:h-[360px] 2xl:h-[541px]
+}
+
+.chooseTitle{
+    @apply text-[30px] lg:text-[42px] xl:text-[53px] 2xl:text-[80px] font-semibold text-darkGrayColor
+}
+
+.chooseDetail{
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 mt-3 lg:mt-4 xl:mt-5 2xl:mt-[30px] mb-4 lg:mb-[26px] xl:mb-[33px] 2xl:mb-[50px]
+}
+
+.chooseCardBody{
+    @apply hover:bg-redColor hover:cursor-pointer border-2 border-grayColor2 px-4 lg:px-[26px] xl:px-[33px] 2xl:px-[50px] py-2 lg:py-4 xl:py-5 2xl:py-[30px] mb-4 lg:mb-[26px] xl:mb-[21px] 2xl:mb-10 flex justify-start items-center gap-x-3 gap-x-[25px]
+}
+
+.chooseCardImg{
+    @apply bg-redColor2 rounded-full p-[10px] lg:p-[15px] xl:p-[19px] xl:p-[29px]
+}
+
+.chooseCardHead{
+    @apply text-darkGrayColor text-sm lg:text-base xl:text-xl 2xl:text-[30px] font-bold
+}
+
+.chooseCardDetail{
+    @apply text-grayColor2 text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal lg:mt-2 xl:mt-[10px] 2xl:mt-[15px]
+}
+
+.featureName{
+    @apply text-[9px] lg:text-[13px] xl:text-[17px] 2xl:text-[26px] font-normal text-grayColor2 hover:text-redColor
+}
+
+.socialIcon{
+    @apply w-4 lg:w-5 xl:w-[25px] 2xl:w-[38px]
+}
+
+.linkLi{
+    @apply mb-0.5 lg:mb-[9px] xl:mb-3 2xl:mb-[18px]
+}
+
+.linkItem{
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+}
+
+.contactItem{
+    @apply flex justify-start items-center gap-x-4 lg:gap-x-[21px] xl:gap-x-[26px] 2xl:gap-x-10
+}
+
+.contactImg{
+    @apply w-[14px] lg:w-[19px]
+}
+
+.contactInfo{
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+}
+
+.propertyItem{
+    @apply flex justify-start items-center gap-x-4 lg:gap-x-[21px] xl:gap-x-[26px] 2xl:gap-x-10
+}
+
+.propertyImg{
+    @apply w-[80px] lg:w-[106px]
+}
+
+.propertyInfo{
+    @apply text-lightColor text-[9px] lg:text-[11px] xl:text-[14px] 2xl:text-[22px] font-medium
+}
+
+.copyrightInfo{
+    @apply pt-[3px] lg:pt-[5px] xl:pt-[6px] 2xl:pt-[10px] pb-1 lg:pb-2 xl:pb-[10px] 2xl:pb-[15px] text-center text-lightColor3 text-[9px] lg:text-[10px] xl:text-xs 2xl:text-lg font-medium
+}
+
 .slider {
     width: 100%;
     margin: 4px auto;
